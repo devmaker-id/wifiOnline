@@ -1,0 +1,164 @@
+{
+  box-sizing: border-box;
+}
+body {
+  font-family: inherit, serif, cursive, sans-serif;
+  text-align: center;
+}
+.navbar {
+  overflow: hidden;
+  margin: 0;
+  width: 15px;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 15px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  margin-top: 1px;
+}
+.column {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+.containerTab {
+  padding: 25px;
+  color: black;
+  margin: 1px;
+}
+.content{
+  padding: 5px;
+  color: black;
+  margin: 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card, img, button{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: lightblue;
+}
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.money{
+  font-family: cursive; 
+  color: yellow;
+}
+.duit{
+  font-family: cursive; 
+  color: maroon;
+}
+s{
+  font-size: 15px;
+  color: maroon;
+}
+.price-new{
+  font-size: 15px;
+  color: red;
+}
+button {
+  font-size: 15px;
+  text-align: center;
+  margin: 5px;
+  width: 100px;
+}
+.footer, p{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  background-color: #333;
+  color: lightblue;
+  text-align: center;
+}
+h1,h2,h3,h5{
+  margin-top: 25px;
+  color: black;
+  text-align: left;
+  font-family: sans-serif;
+}
+form, button{
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(193,225,236);
+  border-radius: 5px;
+}
+.form-group{
+  width: 50%;
+  text-align: left;
+}
+.form-control, select, option, input{
+  text-align: left;
+  margin-bottom: 3px;
+  width: 95%;
+  padding: 1px;
+  border-radius: 5px;
+}
+button{
+  font-family: inherit;
+  margin: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+.profile-user,button{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  background: silver;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+}
+.read-only{
+  background-color: silver;
+  color: blue;
+}
+.penjualan,tr,th,td{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  border: 1px solid red;
+  text-align: left;
+  font-size: 15px;
+  width: 100px;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+.print-voucher{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  position: center fixed;
+  padding: 5px;
+  color: black;
+  margin-top: 50px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
