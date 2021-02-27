@@ -188,11 +188,11 @@ CREATE TABLE `user_wifi` (
 --
 
 INSERT INTO `user_wifi` (`id`, `level`, `username`, `password`, `email`, `telepon`) VALUES
-(2021180000, 'master', 'devmaker-id', '$2y$10$mROm22vfJ/QuupczpD8QEedOj7cKOlfAewU3Um7bGie51y3fgwUSy', 'admin@bc24.id', '087886628289'),
+(2021180000, 'master', 'devmaker-id', '$2y$10$ZPmhMAOuMFYAneU.ymCL0et2ZwydDwiviTfoBroNNuPSwCaD33QZK', 'admin@bc24.id', '087886628289'),
 (2021180001, 'gold', 'dika', '$2y$10$ZPmhMAOuMFYAneU.ymCL0et2ZwydDwiviTfoBroNNuPSwCaD33QZK', 'dika@bc24.id', '087886628233'),
 (2021180002, 'member', 'sadam husain', '$2y$10$ZPmhMAOuMFYAneU.ymCL0et2ZwydDwiviTfoBroNNuPSwCaD33QZK', 'sadam@bc24.id', '087886628211'),
-(2021180004, 'member', 'pecang', '$2y$10$DpFf/3NIa.kxYKdv6SBVrezA4/WBNv5ler4mdwqzSRpZFzOh6Nt4O', 'pecang@admin.com', '087886628123'),
-(2021180005, 'member', 'diki', '$2y$10$xLfFiWSfXik/Y.vU3KFDm.VxHJ4EEdoM2K9hkCBsOdPVXCX4DDhme', 'diki@bc24.id', '087886621234');
+(2021180004, 'member', 'pecang', '$2y$10$ZPmhMAOuMFYAneU.ymCL0et2ZwydDwiviTfoBroNNuPSwCaD33QZK', 'pecang@admin.com', '087886628123'),
+(2021180005, 'member', 'diki', '$2y$10$ZPmhMAOuMFYAneU.ymCL0et2ZwydDwiviTfoBroNNuPSwCaD33QZK', 'diki@bc24.id', '087886621234');
 
 --
 -- Indexes for dumped tables
