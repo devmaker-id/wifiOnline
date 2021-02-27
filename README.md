@@ -30,6 +30,6 @@ user defaullt ada 3 level <br>
 `master` admin@bc24.id <br>
 `gold` dika@bc24.id <br>
 `member` diki@bc24.id <br>
-
-
-password default `bc24`
+password default `bc24` <br>
+<hr>
+cek online : https://wifionline.bungacenter.xyz/
