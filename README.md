@@ -1,4 +1,4 @@
-# wifiOnline <br>
+# wifiOnline v1.0 <br>
 diperlukan `web-server` (apache/nginx) <br>
 memerlukan pula `server-databases` <br>
 
